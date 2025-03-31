@@ -2,7 +2,7 @@
 
 namespace JwtAuth.Core.Dto
 {
-    public class Login
+    public class LoginDto
     {
         [Required(ErrorMessage = "UserName is Required")]
         public string UserName { get; set; }
